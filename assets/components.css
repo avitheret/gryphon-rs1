@@ -297,3 +297,8 @@
 /* RTL Hebrew CTA — arrow points left, hover nudges left */
 .btn[dir="rtl"] .arrow { display:inline-block; }
 .btn[dir="rtl"]:hover .arrow { transform: translateX(-4px); }
+
+
+/* Real images dropped into .ph slots */
+.ph.has-img { background-color:#0f0f11; }
+.ph.has-img::before, .ph.has-img::after { display:none !important; content:none !important; }
